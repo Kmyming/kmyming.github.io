@@ -19,7 +19,7 @@ button {
  cursor: pointer;
 }
 /* navbar */
-.nav{
+.nav, .nav2{
     display: grid;
     grid-template-columns: 2fr repeat(4, 1fr);
     position: fixed;
@@ -27,8 +27,14 @@ button {
     width: 100%;
     grid-column-gap: 0;
     z-index: 1;
-    background: url(../img/IMG_0625.jpg) no-repeat center top fixed;
+    background: no-repeat center top fixed;
     background-size: cover;
+   }
+.nav{
+       background-image: url(../img/IMG_0625.jpg);
+   }
+.nav2{
+       background-image: url(../img/IMG_0543.jpg);
    }
    #name{
        color: rgba(0,0,0,0.7);
@@ -69,8 +75,7 @@ button {
    }
 
 /* background */
-#img{
-    background-image: url(../img/IMG_0625.jpg);
+#img, #img2{
     height: 100%;
     width: 100%;
     position: fixed;
@@ -79,6 +84,12 @@ button {
     background-position: center top;
     background-repeat: no-repeat no-repeat; 
     z-index: -1;
+}
+#img{
+    background-image: url(../img/IMG_0625.jpg);
+}
+#img2{
+    background-image: url(../img/IMG_0543.jpg);
 }
 /* title */
 #title{
@@ -94,19 +105,13 @@ button {
     height: 100vh;
 }
 /* about */
- #about{
-    background-color: white;
-    text-align: left;
+#about{
     text-align: justify;
-    padding: 1em 8em;
-    font-family: 'Roboto Condensed', Calibri;
-    box-shadow: 7px 7px 20px 5px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    font-size: 20px;
-    height: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 1em 8em;
+    font-size: 20px;
 }
 #intro{
     margin-left: 1em;
@@ -124,6 +129,12 @@ button {
     text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.9);
     transition: all 0.4s;
     text-decoration: underline;
+}
+/* work */
+#work{
+    font-size: 50px;
+    text-align: left;
+    padding: 0.2em 2em;
 }
 /* footer */
 #footer{
@@ -161,3 +172,13 @@ button {
     transform: scale(1.2);
     text-decoration: underline;
  }
+
+ /* general */
+ #about, #work{
+    background-color: white;
+    text-align: left;
+    font-family: 'Roboto Condensed', Calibri;
+    box-shadow: 7px 7px 20px 5px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    height: 50%;
+}
