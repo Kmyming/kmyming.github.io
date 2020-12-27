@@ -25,27 +25,27 @@ const moveToSlide = (track, currentSlide, targetSlide) => {
 };
 
 const updateDots = (currentDot, targetDot) => {
-        //move dot
-        currentDot.classList.remove('current-slide');
-        targetDot.classList.add('current-slide');
+    //move dot
+    currentDot.classList.remove('current-slide');
+    targetDot.classList.add('current-slide');
 }
 
-const hideShowArrows = (targetIndex, prevButton, nextButton, slides) =>{
+const hideShowArrows = (targetIndex, prevButton, nextButton, slides) => {
     if (targetIndex === 0) {
         prevButton.classList.add('is-hidden');
         nextButton.classList.remove('is-hidden');
-    } else if (targetIndex === slides.length -1){
+    } else if (targetIndex === slides.length - 1) {
         prevButton.classList.remove('is-hidden');
         nextButton.classList.add('is-hidden');
     } else {
         prevButton.classList.remove('is-hidden');
         nextButton.classList.remove('is-hidden');
     }
-    
+
 }
 
 //when I click left, move slides to left
-prevButton.addEventListener('click', e =>{
+prevButton.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-slide');
     const prevSlide = currentSlide.previousElementSibling;
     const currentDot = dotsNav.querySelector('.current-slide');
@@ -71,14 +71,14 @@ nextButton.addEventListener('click', e => {
 
 //when I click nav indicator, move to that slide 
 dotsNav.addEventListener('click', e => {
-//what indicator was clicked
+    //what indicator was clicked
     const targetDot = e.target.closest('button');
-     
+
     if (!targetDot) return;
-     
+
     const currentSlide = track.querySelector('.current-slide');
     const currentDot = dotsNav.querySelector('.current-slide');
-    const targetIndex = dots.findIndex(dot => dot=== targetDot);
+    const targetIndex = dots.findIndex(dot => dot === targetDot);
     const targetSlide = slides[targetIndex];
 
     moveToSlide(track, currentSlide, targetSlide);
@@ -86,3 +86,59 @@ dotsNav.addEventListener('click', e => {
     hideShowArrows(targetIndex, prevButton, nextButton, slides);
 
 })
+    /*    if (counter = 1){
+           setTimeout(function(){
+               const currentSlide = track.querySelector('.current-slide');
+               const nextSlide = currentSlide.nextElementSibling;
+               const currentDot = dotsNav.querySelector('.current-slide');
+               const nextdot = currentDot.nextElementSibling;
+               const nextIndex = slides.findIndex(slide => slide === nextSlide);
+               track.style.transition = '0.4s ease-in-out';
+               moveToSlide(track, currentSlide, nextSlide);
+               updateDots(currentDot, nextdot);
+               hideShowArrows(nextIndex, prevButton, nextButton, slides);
+               counter = 2;
+               console.log(counter);
+           }, 2000);
+   
+       }if (counter = 2){
+           setTimeout(function(){
+               const currentSlide = track.querySelector('.current-slide');
+               const prevSlide = currentSlide.previousElementSibling;
+               const currentDot = dotsNav.querySelector('.current-slide');
+               const prevdot = currentDot.previousElementSibling;
+               const prevIndex = slides.findIndex(slide => slide === prevSlide);
+               track.style.transition = 'none';
+               moveToSlide(track, currentSlide, prevSlide);
+               updateDots(currentDot, prevdot);
+               hideShowArrows(prevIndex, prevButton, nextButton, slides);
+               counter = 1;
+               }, 4000);
+       } */
+       setInterval(() => {
+        const currentSlide = track.querySelector('.current-slide');
+        const nextSlide = currentSlide.nextElementSibling;
+        const currentDot = dotsNav.querySelector('.current-slide');
+        const nextdot = currentDot.nextElementSibling;
+        let nextIndex = slides.findIndex(slide => slide === nextSlide);
+        track.style.transition = '0.4s ease-in-out';
+        moveToSlide(track, currentSlide, nextSlide);
+        updateDots(currentDot, nextdot);
+        hideShowArrows(nextIndex, prevButton, nextButton, slides);
+
+        if (nextIndex >= 1 ){
+            setTimeout(()=>{
+                const currentSlide = track.querySelector('.current-slide');
+                const currentDot = dotsNav.querySelector('.current-slide');
+                const firstslide = track.querySelector('.first');
+                const targetIndex = slides.findIndex(slide => slide === firstslide);
+                const targetSlide = slides[targetIndex];
+                const targetDot = dots[targetIndex];
+                console.log(targetIndex);
+                track.style.transition = '0.2s ease-in-out';
+                moveToSlide(track, currentSlide, targetSlide);
+                updateDots(currentDot, targetDot);
+                hideShowArrows(targetIndex, prevButton, nextButton, slides);
+            }, 2000)
+        }  
+    }, 4000);  
