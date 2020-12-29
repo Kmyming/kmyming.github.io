@@ -381,13 +381,22 @@ transition: all 0.4s ease-in-out;
     transform: rotate(45deg);
     cursor:pointer;
 }
+/* modal content */
 .content{
     display:flex;
-    justify-content: end;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1em;
     overflow: auto;
-    text-align: left;
     text-align:justify;
     display:none;
+}
+.modaltitle{
+    align-self: center;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
+}
+hr{
+    width: 100%;
+    margin: 1em;
 }
