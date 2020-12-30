@@ -348,7 +348,7 @@ transition: all 0.4s ease-in-out;
 .is-hidden2{
     display:none;
 }
-.carousel_track-container:hover, .carousel_track-container2:hover{
+.carousel_track-container:hover, .carousel_track-container2:hover, .work:hover{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7);
     transition: all 0.4s;
 }
@@ -475,16 +475,20 @@ text-align: center
 .work{
     list-style: none;
     width: 550px;
-    height: 400px;
+    height: 370px;
     margin: 0.5em auto;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s;
     position: relative;
+}
+#workimg{
+    width: 100%;
+    height: 100%;
 }
 .work_title{
 position: absolute;
-text-align: center;
 color: white;
-margin: auto;
-top: 50%;
+top: 45%;
 left: 50%;
 transform: translateY(-50%);
 transform: translateX(-50%);
@@ -493,10 +497,20 @@ font-size: 50px;
 font-family: 'Kameron',  'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
 font-weight: 600;
 transition: all 0.4s;
+z-index: 3;
 }
 .work_title:hover{
     font-size: 60px;
     transition: all 0.4s;
     cursor: pointer;
-
+}
+/* internship content */
+.tinkertanker{
+    font-size: 30px;
+}
+#tinkertankerintro{
+margin-top: -0.5em;
+}
+.tinkertankerlinks{
+    color: black;
 }
