@@ -1,6 +1,6 @@
 /* cssr */
 html{
-    scroll-behavior: smooth;
+        scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -408,7 +408,7 @@ hr{
  margin: 1em auto;
  font-family: 'Nunito', 'Roboto Condensed', Calibri;
  font-weight: 600;
- align-self: flex-start;
+text-align: center
 }
 .content h4{
     font-size: 30px;
@@ -426,6 +426,9 @@ hr{
     align-self: flex-start;
     text-align: left;
     margin: 1em 2em;
+}
+.para{
+    text-align: justify;
 }
 .projpic{
     width: 300px;
@@ -447,4 +450,17 @@ hr{
     border-bottom-width: 3px;
     border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
+}
+.oceanclean, .lightsattendance{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.asterick{
+    font-size: 15px;
+    line-height: 15px;
+}
+.projpic2{
+    width: 300px;
+    height: 100px;
+    align-self: center;
 }
