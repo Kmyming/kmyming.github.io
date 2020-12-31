@@ -9,6 +9,7 @@ let microbit = document.getElementById('microbit-content');
 let website = document.getElementById('website-content');
 let internship = document.getElementById('internships-content');
 console.log('running');
+
 document.getElementById('carousel1').addEventListener('click', function(){
     display.style.display = "flex";
     street.style.display = 'flex';
