@@ -458,7 +458,7 @@ text-align: center
     border-bottom-right-radius: 3%;
 }
 /*microbit content */
-.oceanclean, .lightsattendance{
+.oceanclean, .lightsattendance, .noisemonitoring{
     text-align: center;
     margin-bottom: 1em;
 }
@@ -469,6 +469,11 @@ text-align: center
 .projpic2{
     width: 300px;
     height: 100px;
+    align-self: center;
+}
+.projpic3{
+    width: 200px;
+    height: 300px;
     align-self: center;
 }
 /* work content */
