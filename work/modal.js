@@ -86,6 +86,17 @@ document.getElementById('tinkertankerautolights').addEventListener('click', func
     website.style.display = 'none';
     internship.style.display = 'none';
 })
+document.getElementById('tinkertankernoisemonitor').addEventListener('click', function(){
+    display.style.display = "flex";
+    street.style.display = 'none';
+    landscape.style.display = 'none';
+    travels.style.display = 'none';
+    architecture.style.display = 'none';
+    events.style.display = 'none';
+    microbit.style.display = 'flex';
+    website.style.display = 'none';
+    internship.style.display = 'none';
+})
 document.getElementById('carousel_coding2').addEventListener('click', function(){
     display.style.display = "flex";
     street.style.display = 'none';
