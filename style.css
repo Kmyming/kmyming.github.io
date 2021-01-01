@@ -549,18 +549,30 @@ margin-top: -0.5em;
 /*street content */
 .photoslist{
     list-style: none;
-    margin-top: 1em;
     display: flex;
     flex-direction: column;
 }
-.photosbox{
+.photoslistrow{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.photosbox, .photosboxinside{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.photosbox{
+    margin-top: 1em;
+}
 .portrait{
     width: 140px;
     height: 220px;
+    padding: 0.2em;
+}
+.portraitbig{
+    width: 280px;
+    height: 440px;
     padding: 0.2em;
 }
 .imgpopup{
@@ -575,6 +587,6 @@ margin-top: -0.5em;
 }
 .landscape{
     width: 280px;
-    height: 170px;
+    height: 220px;
     padding: 0.2em;
 }
