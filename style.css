@@ -556,6 +556,7 @@ margin-top: -0.5em;
 .photosbox{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .portrait{
     width: 140px;
@@ -569,6 +570,11 @@ margin-top: -0.5em;
 }
 .square{
     width: 140px; 
+    height: 170px;
+    padding: 0.2em;
+}
+.landscape{
+    width: 280px;
     height: 170px;
     padding: 0.2em;
 }
