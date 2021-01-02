@@ -563,17 +563,20 @@ margin-top: -0.5em;
     flex-wrap: wrap;
 }
 .photosbox{
-    margin-top: 1em;
+    margin: 1em auto;
+    margin-right: 0;
 }
 .portrait{
     width: 140px;
     height: 220px;
     padding: 0.2em;
+    padding-right: 0;
 }
 .portraitbig{
     width: 280px;
     height: 440px;
     padding: 0.2em;
+    padding-right: 0;
 }
 .imgpopup{
     width: 100%;
@@ -584,9 +587,17 @@ margin-top: -0.5em;
     width: 140px; 
     height: 170px;
     padding: 0.2em;
+    padding-right: 0;
 }
 .landscape{
     width: 280px;
     height: 220px;
     padding: 0.2em;
+    padding-right: 0;
+}
+.landscapebig{
+    width: 420px;
+    height: 440px;
+    padding: 0.2em;
+    padding-right: 0;
 }
