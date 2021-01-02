@@ -10,6 +10,8 @@ let website = document.getElementById('website-content');
 let internship = document.getElementById('internships-content');
 let vietnam = document.getElementById('vietnambg');
 let usa = document.getElementById('usabg');
+let vietnamwords = document.getElementById('vietnamnav');
+let usawords = document.getElementById('usanav');
 console.log('running');
 
 document.getElementById('carousel1').addEventListener('click', function(){
@@ -129,13 +131,21 @@ document.querySelector('.cross').addEventListener("click", function() {
 });
 document.getElementById('vietnamnav').addEventListener("mouseover",function(){
     vietnam.style.opacity = 0.5;
+    vietnamwords.style.color = 'maroon';
+    vietnam.style.transition = '0.2s';
 })
 document.getElementById('usanav').addEventListener("mouseover",function(){
     usa.style.opacity = 0.5;
+    usa.style.color = 'maroon';
+    usa.style.transition = '0.2s';
 })
 document.getElementById('vietnamnav').addEventListener("mouseout",function(){
-    vietnam.style.opacity = 1;
+    vietnam.style.opacity = 0;
+    vietnamwords.style.color = 'black';
+    vietnam.style.transition = '0.2s';
 })
 document.getElementById('usanav').addEventListener("mouseout",function(){
-    usa.style.opacity = 1;
+    usa.style.opacity = 0;
+    usa.style.color = 'black';
+    usa.style.transition = '0.2s';
 })

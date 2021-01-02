@@ -610,7 +610,7 @@ margin-top: -0.5em;
     height: 100%;
     object-fit: cover;
 
-    opacity: 1;
+    opacity: 0;
     top: 0;
     left: 0;
     bottom: 0;
@@ -631,7 +631,5 @@ margin-top: -0.5em;
     color: black;
     z-index: 1;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-.travelsnav:hover{
-    color:maroon;
+    transition: all 0.2s;
 }
