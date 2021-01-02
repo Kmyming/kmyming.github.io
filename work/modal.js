@@ -8,6 +8,8 @@ let events = document.getElementById('events-content');
 let microbit = document.getElementById('microbit-content');
 let website = document.getElementById('website-content');
 let internship = document.getElementById('internships-content');
+let vietnam = document.getElementById('vietnambg');
+let usa = document.getElementById('usabg');
 console.log('running');
 
 document.getElementById('carousel1').addEventListener('click', function(){
@@ -125,3 +127,15 @@ document.querySelector('.cross').addEventListener("click", function() {
     display.style.display = "none";
     console.log('close');
 });
+document.getElementById('vietnamnav').addEventListener("mouseover",function(){
+    vietnam.style.opacity = 0.5;
+})
+document.getElementById('usanav').addEventListener("mouseover",function(){
+    usa.style.opacity = 0.5;
+})
+document.getElementById('vietnamnav').addEventListener("mouseout",function(){
+    vietnam.style.opacity = 1;
+})
+document.getElementById('usanav').addEventListener("mouseout",function(){
+    usa.style.opacity = 1;
+})

@@ -454,13 +454,14 @@ text-align: center
     height: 100%;
     text-align: center;
 }
-.navpopup:hover{
+.navpopup:hover, .navpopupdiv:hover{
     color: maroon;
     border-bottom: maroon;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
+    text-decoration-color: maroon;
 }
 .top{
     position: sticky;
@@ -556,6 +557,7 @@ margin-top: -0.5em;
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .photosbox, .photosboxinside{
     display: flex;
@@ -563,20 +565,16 @@ margin-top: -0.5em;
     flex-wrap: wrap;
 }
 .photosbox{
-    margin: 1em auto;
-    margin-right: 0;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 .portrait{
     width: 140px;
     height: 220px;
-    padding: 0.2em;
-    padding-right: 0;
 }
 .portraitbig{
     width: 280px;
     height: 440px;
-    padding: 0.2em;
-    padding-right: 0;
 }
 .imgpopup{
     width: 100%;
@@ -586,18 +584,54 @@ margin-top: -0.5em;
 .square{
     width: 140px; 
     height: 170px;
-    padding: 0.2em;
-    padding-right: 0;
 }
 .landscape{
     width: 280px;
     height: 220px;
-    padding: 0.2em;
-    padding-right: 0;
 }
 .landscapebig{
     width: 420px;
     height: 440px;
+}
+.portrait, .landscape, .portraitbig, .landscapebig, .square{
+    padding: 4px;
+}
+.navpopupdiv{
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
     padding: 0.2em;
-    padding-right: 0;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+}
+.navbg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+#vietnambg{
+    background: url(../img/vietnam.jpg);
+    background-position: center;
+}
+#usabg{
+    background: url(../img/usa.jpg);
+    background-position: center;
+}
+.travelsnav{
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.travelsnav:hover{
+    color:maroon;
 }
