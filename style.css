@@ -484,6 +484,43 @@ text-align: center
     font-size: 25px;
     transition: all 0.2s ease-in-out;
 }
+.navpopupdiv{
+    width: 100%;
+    text-align: center;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
+    padding: 0.2em;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+}
+.navbg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+#vietnambg{
+    background: url(../img/vietnam.jpg);
+    background-position: center;
+}
+#usabg{
+    background: url(../img/usa.jpg);
+    background-position: center;
+}
+.travelsnav{
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
 
 /*microbit content */
 .oceanclean, .lightsattendance, .noisemonitoring{
@@ -593,43 +630,10 @@ margin-top: -0.5em;
     width: 420px;
     height: 440px;
 }
-.portrait, .landscape, .portraitbig, .landscapebig, .square{
+.portrait, .landscape, .portraitbig, .landscapebig, .square, .landscapebig2{
     padding: 4px;
 }
-.navpopupdiv{
-    width: 100%;
-    text-align: center;
-    font-family: 'Nunito', 'Roboto Condensed', Calibri;
-    padding: 0.2em;
-    position: relative;
-    z-index: 1;
-    background-color: rgba(255, 255, 255, 1);
-}
-.navbg{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    opacity: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-}
-#vietnambg{
-    background: url(../img/vietnam.jpg);
-    background-position: center;
-}
-#usabg{
-    background: url(../img/usa.jpg);
-    background-position: center;
-}
-.travelsnav{
-    text-decoration: none;
-    color: black;
-    z-index: 1;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s;
+.landscapebig2{
+    width: 420px;
+    height: 220px;
 }
