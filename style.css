@@ -637,3 +637,14 @@ margin-top: -0.5em;
     width: 420px;
     height: 220px;
 }
+
+#honestwork{
+    padding: 1em;
+    width: 420px;
+    height: 250px;
+}
+
+/*personal website */
+#githubrepos{
+    color: black;
+}
