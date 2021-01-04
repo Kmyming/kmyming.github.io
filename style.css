@@ -713,7 +713,7 @@ margin-top: -0.5em;
 .tinkertankerlinks{
     color: black;
 }
-/*street content */
+/*photo content */
 .photoslist{
     list-style: none;
     display: flex;
@@ -805,6 +805,8 @@ margin-top: -0.5em;
         margin: 1em 3px;
         width: 10px;
         height: 10px;
+        margin-bottom: 2em;
+        margin-top: 0.5em;
     }
     .carousel_button > img, .carousel_button2 > img{
         width: 20px;
@@ -846,6 +848,77 @@ margin-top: -0.5em;
     .credits{
         font-size: 10px;
     }
+    .modal-content{
+        width: 300px;
+        height: 300px;
+    }
+    .modaltitle{
+        font-size: 20px;
+    }
+    .content h4{
+        font-size: 15px;
+    }
+    .content h5{
+        font-size: 15px;
+    }
+    .para, .list2{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .projpic{
+        width: 200px;
+        height: 200px;
+    }
+    .navpopup, .navpopupdiv{
+        font-size: 15px;
+    }
+    .asterick{
+        font-size: 10px;
+    }
+    .projpic2{
+        width: 200px;
+        height: 67px;
+    }
+    .projpic3{
+        width: 200px;
+        height: 300px;
+    }
+    .video1{
+        height: 125px;
+        width: 200px;
+    }
+    .video2{
+        width: 150px;
+        height: 250px;
+    }
+    #honestwork{
+        width: 250px;
+        height: 156px;
+    }
+    .portrait{
+        width: 90px;
+        height: 150px;
+    }
+    .square{
+        width: 90px;
+        height: 100px;
+    }
+    .landscape{
+        width: 180px;
+        height: 150px;
+    }
+    .landscapebig{
+        width: 270px;
+        height: 300px;
+    }
+    .portraitbig{
+        width: 180px;
+        height: 300px;
+    }
+    .landscapebig2{
+        width: 270px;
+        height: 150px;
+    }
 }
 @media only screen and (max-width: 376px) and (min-width: 321px){
     #about{
@@ -859,12 +932,14 @@ margin-top: -0.5em;
         height: 153px;
         align-self: center;
         margin: 1em auto;
+        margin-top: 0.5em;
     }
     .work_title{
         font-size: 15px;
     }
     .carousel_indicator, .carousel_indicator2{
-        margin: 1em 3px;
+        margin: 0.5em 3px;
+        margin-bottom: 1em;
         width: 10px;
         height: 10px;
     }
@@ -908,6 +983,77 @@ margin-top: -0.5em;
     .credits{
         font-size: 10px;
     }
+    .modal-content{
+        width: 300px;
+        height: 300px;
+    }
+    .modaltitle{
+        font-size: 20px;
+    }
+    .content h4{
+        font-size: 15px;
+    }
+    .content h5{
+        font-size: 15px;
+    }
+    .para, .list2{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .projpic{
+        width: 200px;
+        height: 200px;
+    }
+    .navpopup, .navpopupdiv{
+        font-size: 15px;
+    }
+    .asterick{
+        font-size: 10px;
+    }
+    .projpic2{
+        width: 200px;
+        height: 67px;
+    }
+    .projpic3{
+        width: 200px;
+        height: 300px;
+    }
+    .video1{
+        height: 125px;
+        width: 200px;
+    }
+    .video2{
+        width: 150px;
+        height: 250px;
+    }
+    #honestwork{
+        width: 250px;
+        height: 156px;
+    }
+    .portrait{
+        width: 90px;
+        height: 150px;
+    }
+    .square{
+        width: 90px;
+        height: 100px;
+    }
+    .landscape{
+        width: 180px;
+        height: 150px;
+    }
+    .landscapebig{
+        width: 270px;
+        height: 300px;
+    }
+    .portraitbig{
+        width: 180px;
+        height: 300px;
+    }
+    .landscapebig2{
+        width: 270px;
+        height: 150px;
+    }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 376px){
@@ -925,7 +1071,7 @@ margin-top: -0.5em;
     font-size: 20px;
     }
     .carousel_indicator, .carousel_indicator2{
-    margin: 1em 5px;
+    margin: 0.5em 5px;
     width: 10px;
     height: 10px;
     }
@@ -957,6 +1103,77 @@ margin-top: -0.5em;
     .credits{
         font-size: 10px;
     }
+    .modal-content{
+        width: 300px;
+        height: 300px;
+    }
+    .modaltitle{
+        font-size: 20px;
+    }
+    .content h4{
+        font-size: 15px;
+    }
+    .content h5{
+        font-size: 15px;
+    }
+    .para, .list2{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .projpic{
+        width: 200px;
+        height: 200px;
+    }
+    .navpopup, .navpopupdiv{
+        font-size: 15px;
+    }
+    .asterick{
+        font-size: 10px;
+    }
+    .projpic2{
+        width: 200px;
+        height: 67px;
+    }
+    .projpic3{
+        width: 200px;
+        height: 300px;
+    }
+    .video1{
+        height: 125px;
+        width: 200px;
+    }
+    .video2{
+        width: 150px;
+        height: 250px;
+    }
+    #honestwork{
+        width: 250px;
+        height: 156px;
+    }
+    .portrait{
+        width: 90px;
+        height: 150px;
+    }
+    .square{
+        width: 90px;
+        height: 100px;
+    }
+    .landscape{
+        width: 180px;
+        height: 150px;
+    }
+    .landscapebig{
+        width: 270px;
+        height: 300px;
+    }
+    .portraitbig{
+        width: 180px;
+        height: 300px;
+    }
+    .landscapebig2{
+        width: 270px;
+        height: 150px;
+    }
 }
 @media only screen and (max-width: 768px) and (min-width: 600px) {
     #about{
@@ -984,6 +1201,10 @@ margin-top: -0.5em;
 }
 .nav, .nav2, .nav3, .nav4{
     display:none;
+}
+.modal-content{
+    width: 500px;
+    height: 450px;
 }
 }
 
