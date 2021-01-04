@@ -883,7 +883,7 @@ margin-top: -0.5em;
 }
 
 
-@media only screen and (min-width: 1440px) {
+/*@media only screen and (min-width: 1440px) {
 #about{
     font-size: 25px;
 }
@@ -924,7 +924,7 @@ margin-top: -0.5em;
 .credits{
     font-size: 15px;
 }
-}
+}*/
 
 @media only screen and (min-width: 2000px) {
     #about{
