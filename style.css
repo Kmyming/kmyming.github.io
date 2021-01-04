@@ -641,6 +641,10 @@ text-align: center
 .oceanclean, .lightsattendance, .noisemonitoring{
     text-align: center;
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .asterick{
     font-size: 15px;
@@ -656,6 +660,15 @@ text-align: center
     height: 300px;
     align-self: center;
 }
+.video1{
+    height:250px;
+    width: 400px;
+}
+.video2{
+    width:150px;
+    height:250px; 
+}
+
 /* work content */
 .work{
     list-style: none;
@@ -972,7 +985,6 @@ margin-top: -0.5em;
 .nav, .nav2, .nav3, .nav4{
     display:none;
 }
-}
 
 @media only screen and (min-width: 2000px) {
     #about{
@@ -1057,7 +1069,7 @@ margin-top: -0.5em;
         width: 500px;
         height: 500px;
     }
-    .navpopup{
+    .navpopup, .navpopupdiv{
         font-size: 35px;
     }
     .asterick{
@@ -1070,6 +1082,51 @@ margin-top: -0.5em;
     .projpic3{
         width: 400px;
         height: 600px;
+    }
+    .video1{
+        height: 500px;
+        width: 800px;
+    }
+    .video2{
+        width:300px;
+        height: 480px;
+    }
+    .cross{
+        font-size: 60px;
+    }
+    .top{
+        font-size: 50px;
+    }
+    .backtop:hover{
+        font-size: 60px;
+    }
+    #honestwork{
+        width: 700px;
+        height: 437px;
+    }
+    .portrait{
+        width: 300px;
+        height: 471px;
+    }
+    .square{
+        width: 300px;
+        height: 300px;
+    }
+    .landscape{
+        width: 600px;
+        height: 471px;
+    }
+    .landscapebig{
+        width: 900px;
+        height: 942px;
+    }
+    .portraitbig{
+        width: 600px;
+        height: 942px;
+    }
+    .landscapebig2{
+        width: 900px;
+        height: 471px;
     }
 }
 
