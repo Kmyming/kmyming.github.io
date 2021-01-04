@@ -985,6 +985,7 @@ margin-top: -0.5em;
 .nav, .nav2, .nav3, .nav4{
     display:none;
 }
+}
 
 @media only screen and (min-width: 2000px) {
     #about{
@@ -1130,47 +1131,3 @@ margin-top: -0.5em;
     }
 }
 
-
-
-/*@media only screen and (min-width: 1440px) {
-#about{
-    font-size: 25px;
-}
-#imgme{
-    height: 500px;
-}
-.carousel, .carousel2, .work{
-    width:600px;
-    height: 461px;
-}
-.work_title{
-    font-size: 40px;
-}
-.carousel_indicator, .carousel_indicator2{
-    margin: 1em 15px;
-}
-.placeholderimg{
-    width: 600px;
-    height: 400px;
-}
-.contentunavailable{
-    font-size: 30px;
-}
-    .medianav{
-    display:none;
-}
-.nav, .nav2, .nav3, .nav4{
-    display:grid;
-}
-.nav1{
-    font-size: 40px;
-    padding-top: 1em;
-}
-#name{
-    font-size: 70px;
-    padding: 20px 1em;
-}
-.credits{
-    font-size: 15px;
-}
-}*/
