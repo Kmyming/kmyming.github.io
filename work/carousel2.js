@@ -6,8 +6,6 @@ const dotsNav2 = document.querySelector('.carousel_nav2');
 const dots2 = Array.from(dotsNav2.children);
 
 const slideWidth2 = slides2[0].getBoundingClientRect().width;
-console.log(slideWidth2);
-console.log(slides2.length);
 
 //arrange slides next to one another
 //slides[0].style.left = slideWidth * 0 + 'px';
@@ -101,7 +99,6 @@ function target(tarindex){
         updateDots2(currentDot2, nextdot2);
         hideShowArrows2(nextIndex2, prevButton2, nextButton2, slides2);
         track2.style.transition = '0.4s ease-in-out';
-        console.log(nextIndex2);
 
         if (nextIndex2 >= 4 ){
             setTimeout(()=>{
@@ -111,13 +108,12 @@ function target(tarindex){
                 const targetIndex2 = slides2.findIndex(slide => slide === firstslide2);
                 const targetSlide2 = slides2[targetIndex2];
                 const targetDot2 = dots2[targetIndex2];
-                console.log(targetIndex2);
                 track2.style.transition = '0.2s ease-in-out';
                 moveToSlide2(track2, currentSlide2, targetSlide2);
                 updateDots2(currentDot2, targetDot2);
                 hideShowArrows2(targetIndex2, prevButton2, nextButton2, slides2);
-            }, 2000)
+            }, 4000)
         }  
-    }, 4000);  
+    }, 8000);  
 
  

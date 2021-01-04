@@ -6,7 +6,6 @@ const dotsNav = document.querySelector('.carousel_nav');
 const dots = Array.from(dotsNav.children);
 
 const slideWidth = slides[0].getBoundingClientRect().width;
-console.log(slideWidth);
 
 //arrange slides next to one another
 //slides[0].style.left = slideWidth * 0 + 'px';
@@ -134,11 +133,10 @@ dotsNav.addEventListener('click', e => {
                 const targetIndex = slides.findIndex(slide => slide === firstslide);
                 const targetSlide = slides[targetIndex];
                 const targetDot = dots[targetIndex];
-                console.log(targetIndex);
                 track.style.transition = '0.2s ease-in-out';
                 moveToSlide(track, currentSlide, targetSlide);
                 updateDots(currentDot, targetDot);
                 hideShowArrows(targetIndex, prevButton, nextButton, slides);
-            }, 2000)
+            }, 4000)
         }  
-    }, 4000);  
+    }, 8000);  

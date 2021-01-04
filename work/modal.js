@@ -12,7 +12,6 @@ let vietnam = document.getElementById('vietnambg');
 let usa = document.getElementById('usabg');
 let vietnamwords = document.getElementById('vietnamnav');
 let usawords = document.getElementById('usanav');
-console.log('running');
 
 document.getElementById('carousel1').addEventListener('click', function(){
     display.style.display = "flex";
@@ -127,7 +126,6 @@ document.getElementById('carousel_internships').addEventListener('click', functi
 // when cross is clicked, set display to none
 document.querySelector('.cross').addEventListener("click", function() {
     display.style.display = "none";
-    console.log('close');
 });
 document.getElementById('vietnamnav').addEventListener("mouseover",function(){
     vietnam.style.opacity = 0.5;
