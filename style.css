@@ -99,8 +99,8 @@ button {
 }
 #menu{
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 0.2em 1em;
     transition: all 0.4s;
     display: block;
@@ -206,6 +206,9 @@ button {
     margin-left: 1em;
     align-self: center;
 }
+#intro > p{
+    font-family: "Roboto Condensed", Calibri;
+}
 #imgme{
     height: 500px;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
@@ -252,6 +255,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 5em 2em;
+    font-family: "Roboto Condensed", Calibri;
 }
 .placeholderimg{
     width: 450px;
@@ -499,7 +503,7 @@ transition: all 0.4s ease-in-out;
 }
 .modal-content{
     width: 500px;
-    height: 500px;
+    height: 90%;
     background-color: white;
     border-radius: 4px;
     position: relative;
@@ -852,7 +856,6 @@ margin-top: -0.5em;
     }
     .modal-content{
         width: 300px;
-        height: 300px;
     }
     .modaltitle{
         font-size: 20px;
@@ -987,7 +990,6 @@ margin-top: -0.5em;
     }
     .modal-content{
         width: 300px;
-        height: 300px;
     }
     .modaltitle{
         font-size: 20px;
@@ -1072,6 +1074,11 @@ margin-top: -0.5em;
     .work_title{
     font-size: 20px;
     }
+    .work_title:hover{
+        font-size: 30px;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
     .carousel_indicator, .carousel_indicator2{
     margin: 0.5em 5px;
     width: 10px;
@@ -1107,7 +1114,6 @@ margin-top: -0.5em;
     }
     .modal-content{
         width: 300px;
-        height: 300px;
     }
     .modaltitle{
         font-size: 20px;
@@ -1191,6 +1197,11 @@ margin-top: -0.5em;
     .work_title{
         font-size: 40px;
     }
+    .work_title:hover{
+        font-size: 50px;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
     .carousel_indicator, .carousel_indicator2{
         margin: 1em 15px;
     }
@@ -1223,6 +1234,11 @@ margin-top: -0.5em;
     }
     .work_title{
         font-size: 100px;
+    }
+    .work_title:hover{
+        font-size: 110px;
+        transition: all 0.4s;
+        cursor: pointer;
     }
     .carousel_indicator, .carousel_indicator2{
         margin: 1em 15px;
@@ -1274,7 +1290,7 @@ margin-top: -0.5em;
     }
     .modal-content{
         width: 1000px;
-        height: 1000px;
+        height: 80%;
     }
     .modaltitle{
         font-size: 70px;
