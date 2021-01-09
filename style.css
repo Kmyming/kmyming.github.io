@@ -91,7 +91,7 @@ button {
     align-items: center;
 }
 #navname{
-    font-family: 'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
     font-size: 30px;
     text-align: right;
     margin: 0.2em 1em;
@@ -131,7 +131,7 @@ button {
 .navbar2text{
     text-align: right;
     font-size: 20px;
-    font-family: 'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
     font-weight: 600;
     padding: 1em 1em;
     text-decoration: none;
@@ -303,7 +303,7 @@ button {
  #about, #work, #travelscontent, #blog{
     background-color: white;
     text-align: left;
-    font-family: 'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
+    font-family: 'Nunito','Roboto Condensed', Calibri;
     box-shadow: 7px 7px 20px 5px rgba(0, 0, 0, 0.2);
     margin: auto;
     height: 50%;
@@ -395,7 +395,7 @@ transition: all 0.4s ease-in-out;
     left: 0;
     right: 0;
     padding: 0.5em 1em;
-    font-size: 27px;
+    font-size: 22px;
     transition: all 0.4s;
 }
 
@@ -483,7 +483,7 @@ transition: all 0.4s ease-in-out;
     transition: all 0.4s;
 }
 .white:hover{
-    font-size: 30px;
+    font-size: 25px;
     transition: all 0.4s;
     text-decoration: underline;
 }
@@ -529,9 +529,9 @@ transition: all 0.4s ease-in-out;
 }
 .modaltitle{
     align-self: center;
-    font-family: 'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
+    font-family: 'Nunito', 'Roboto Condensed', Calibri;
     margin-bottom: 0.5em;
-    font-size: 30px;
+    font-size: 20px;
 }
 hr{
     width: 100%;
@@ -539,7 +539,6 @@ hr{
 .content h4, h5{
  margin: 1em auto;
  font-family: 'Nunito', 'Roboto Condensed', Calibri;
- font-weight: 600;
 text-align: center
 }
 .content h4{
@@ -699,7 +698,7 @@ transform: translateY(-50%);
 transform: translateX(-50%);
 text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
 font-size: 50px;
-font-family: 'Kameron',  'Barlow Condensed', 'Nunito', 'Roboto Condensed', Calibri;
+font-family: 'Nunito', 'Roboto Condensed', Calibri;
 font-weight: 600;
 transition: all 0.4s;
 z-index: 0;
