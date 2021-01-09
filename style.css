@@ -668,10 +668,12 @@ text-align: center
 .video1{
     height:250px;
     width: 400px;
+    background-color: black;
 }
 .video2{
     width:150px;
     height:250px; 
+    background-color: black;
 }
 
 /* work content */
