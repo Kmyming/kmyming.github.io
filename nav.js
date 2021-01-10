@@ -14,8 +14,7 @@ document.getElementById('menu').addEventListener('click', function(){
     menu.style.transition = '0.2s ease-in-out';
     navbar.style.transform = 'translateX(+297px)';
     navbar.style.transition = '0.4s ease-in-out';
-    navbg.style.opacity = 0.7;
-    navbg.style.transition = '0.4s ease-in-out';
+    navbg.style.display = 'flex';
 });
 document.querySelector('.navbarbg').addEventListener('click', e => {
     const clickawaynav = e.target.closest('.navbar2');
@@ -24,16 +23,15 @@ document.querySelector('.navbarbg').addEventListener('click', e => {
     navbar.style.transition = '0.4s ease-in-out';
     menu.style.display = 'block';
     menu.style.transition = '0.2s ease-in-out';
-    navbg.style.opacity = 0;
-    navbg.style.transition = '0.4s ease-in-out';
+    navbg.style.display = 'none';
+
 })
 document.querySelector('.lefticon').addEventListener('click', function(){
     navbar.style.transform = 'translateX(-297px)';
     navbar.style.transition = '0.4s ease-in-out';
     menu.style.display = 'block';
     menu.style.transition = '0.2s ease-in-out';
-    navbg.style.opacity = 0;
-    navbg.style.transition = '0.4s ease-in-out';
+    navbg.style.display = 'none';
 });
 // when text is hovered over, set diamond display to inline
 document.getElementById('text1').addEventListener('mouseover', function (){
