@@ -123,10 +123,6 @@ document.getElementById('carousel_internships').addEventListener('click', functi
     website.style.display = 'none';
     internship.style.display = 'flex';
 })
-// when cross is clicked, set display to none
-document.querySelector('.cross').addEventListener("click", function() {
-    display.style.display = "none";
-});
 document.getElementById('vietnamnav').addEventListener("mouseover",function(){
     vietnam.style.opacity = 0.5;
     vietnamwords.style.color = 'maroon';
@@ -147,3 +143,13 @@ document.getElementById('usanav').addEventListener("mouseout",function(){
     usa.style.color = 'black';
     usa.style.transition = '0.2s';
 })
+//when area that is clicked is not modal-content, set display to none
+document.querySelector('.bg-modal').addEventListener('click', e => {
+    const clickaway = e.target.closest('.modal-content');
+    if (clickaway) return;   
+    display.style.display = "none";
+})
+// when cross is clicked, set display to none
+document.querySelector('.cross').addEventListener("click", function() {
+    display.style.display = "none";
+});

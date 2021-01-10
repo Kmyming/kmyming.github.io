@@ -89,6 +89,7 @@ button {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    z-index:7;
 }
 #navname{
     font-family: 'Nunito', 'Roboto Condensed', Calibri;
@@ -117,11 +118,23 @@ button {
     bottom: 0;
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    z-index: 6;
     padding-top: 90px;
     background-image: linear-gradient(to right, rgb(143, 143, 143, 1), rgba(143,143,143,0));
     justify-content: space-between;
     align-items: flex-end;
+}
+.navbarbg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 5;
 }
 .navrbartext{
     display: flex;
@@ -508,6 +521,7 @@ transition: all 0.4s ease-in-out;
     border-radius: 4px;
     position: relative;
     overflow-y: auto;
+    z-index: 3;
 }
 .cross{
     position: absolute;
