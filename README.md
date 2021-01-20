@@ -10,3 +10,8 @@ Website made with HTML, Vanilla CSS and Vanilla JS.
 4/1/2021: v1.0
 
 Version 1 of the website completed! Content for 'about', 'my work' with some basic JavaScript for automatic carousel, modals and navigation bar for mobile.
+
+
+20/1/2021: v1.1
+
+Minor edits to the website to make it run smoother and load quicker, through compressing and properly sizing images, and eliminating render-blocking resources. Hopefully the website loads a tad bit faster now!
