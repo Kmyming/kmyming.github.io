@@ -13,6 +13,7 @@ let usa = document.getElementById('usabg');
 let vietnamwords = document.getElementById('vietnamnav');
 let usawords = document.getElementById('usanav');
 
+
 document.getElementById('carousel1').addEventListener('click', function(){
     display.style.display = "flex";
     street.style.display = 'flex';
