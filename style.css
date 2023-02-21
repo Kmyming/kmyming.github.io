@@ -1077,7 +1077,7 @@ margin-top: -0.5em;
 
 @media only screen and (max-width: 600px) and (min-width: 376px){
     .weird{
-        font-size:30px;
+        font-size:32px;
     }
     #about{
     flex-direction: column;
