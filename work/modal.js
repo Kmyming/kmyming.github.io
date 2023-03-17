@@ -12,8 +12,20 @@ let vietnam = document.getElementById('vietnambg');
 let usa = document.getElementById('usabg');
 let vietnamwords = document.getElementById('vietnamnav');
 let usawords = document.getElementById('usanav');
+let safmc = document.getElementById('safmc-content');
 
-
+document.getElementById('carousel_coding3').addEventListener('click', function(){
+    display.style.display = "flex";
+    street.style.display = 'none';
+    landscape.style.display = 'none';
+    travels.style.display = 'none';
+    architecture.style.display = 'none';
+    events.style.display = 'none';
+    microbit.style.display = 'none';
+    website.style.display = 'none';
+    internship.style.display = 'none';
+    safmc.style.display = 'flex';
+})
 document.getElementById('carousel1').addEventListener('click', function(){
     display.style.display = "flex";
     street.style.display = 'flex';
@@ -24,6 +36,7 @@ document.getElementById('carousel1').addEventListener('click', function(){
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel2').addEventListener('click', function(){
     display.style.display = "flex";
@@ -35,6 +48,7 @@ document.getElementById('carousel2').addEventListener('click', function(){
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel3').addEventListener('click', function(){
     display.style.display = "flex";
@@ -46,6 +60,7 @@ document.getElementById('carousel3').addEventListener('click', function(){
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel4').addEventListener('click', function(){
     display.style.display = "flex";
@@ -57,6 +72,7 @@ document.getElementById('carousel4').addEventListener('click', function(){
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel5').addEventListener('click', function(){
     display.style.display = "flex";
@@ -68,6 +84,7 @@ document.getElementById('carousel5').addEventListener('click', function(){
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel_coding1').addEventListener('click', function(){
     display.style.display = "flex";
@@ -79,6 +96,7 @@ document.getElementById('carousel_coding1').addEventListener('click', function()
     microbit.style.display = 'flex';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('tinkertankerautolights').addEventListener('click', function(){
     display.style.display = "flex";
@@ -90,6 +108,7 @@ document.getElementById('tinkertankerautolights').addEventListener('click', func
     microbit.style.display = 'flex';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('tinkertankernoisemonitor').addEventListener('click', function(){
     display.style.display = "flex";
@@ -101,6 +120,7 @@ document.getElementById('tinkertankernoisemonitor').addEventListener('click', fu
     microbit.style.display = 'flex';
     website.style.display = 'none';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel_coding2').addEventListener('click', function(){
     display.style.display = "flex";
@@ -112,6 +132,7 @@ document.getElementById('carousel_coding2').addEventListener('click', function()
     microbit.style.display = 'none';
     website.style.display = 'flex';
     internship.style.display = 'none';
+    safmc.style.display = 'none';
 })
 document.getElementById('carousel_internships').addEventListener('click', function(){
     display.style.display = "flex";
@@ -123,6 +144,7 @@ document.getElementById('carousel_internships').addEventListener('click', functi
     microbit.style.display = 'none';
     website.style.display = 'none';
     internship.style.display = 'flex';
+    safmc.style.display = 'none';
 })
 document.getElementById('vietnamnav').addEventListener("mouseover",function(){
     vietnam.style.opacity = 0.5;

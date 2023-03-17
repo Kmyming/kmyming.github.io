@@ -125,7 +125,7 @@ dotsNav.addEventListener('click', e => {
         updateDots(currentDot, nextdot);
         hideShowArrows(nextIndex, prevButton, nextButton, slides);
 
-        if (nextIndex >= 1 ){
+        if (nextIndex >= 4 ){
             setTimeout(()=>{
                 const currentSlide = track.querySelector('.current-slide');
                 const currentDot = dotsNav.querySelector('.current-slide');

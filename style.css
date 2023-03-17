@@ -490,6 +490,7 @@ transition: all 0.4s ease-in-out;
 .carousel_track-container:hover, .carousel_track-container2:hover, .work:hover{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7);
     transition: all 0.4s;
+    cursor: pointer;
 }
 .carousel_indicator:hover, .carousel_indicator2:hover{
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
