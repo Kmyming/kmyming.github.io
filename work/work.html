@@ -59,7 +59,7 @@
 				<ul class='carousel_track'>
 					<li class="carousel_slide current-slide first" id='carousel_coding3'>
 						<div class="white">
-							<p class='code_title'>Singapore Amazing Flying Machine Competition</p>
+							<p class='code_title' style ='font-size: 19px;'>SINGAPORE AMAZING FLYING MACHINE COMPETITION</p>
 						</div>
 						<img loading='lazy' src='../img/plane.jpg' class='carousel_image' alt=''
 						srcset=''
@@ -67,7 +67,7 @@
 					</li>
 					<li class="carousel_slide current-slide first" id='carousel_coding4'>
 						<div class="white">
-							<p class='code_title'>Singapore Science and Engineering Fair</p>
+							<p class='code_title'>SINGAPORE SCIENCE AND ENGINEERING FAIR</p>
 						</div>
 						<img loading='lazy' src='../img/thumbnail.jpeg' class='carousel_image' alt=''
 						srcset=''
@@ -77,9 +77,8 @@
 						<div class="white">
 							<p class='code_title'>ROV SUBMARINE</p>
 						</div>
-						<img loading='lazy' src='../img/IMG_1234.jpg' class='carousel_image' alt=''
-						srcset='../img/IMG_1234sss.jpg 400w,
-						../img/IMG_1234.jpg 1200w'
+						<img loading='lazy' src='../img/rov.jpg' class='carousel_image' alt=''
+						srcset=''
 						sizes="(max-width: 768px) 400px, (min-width: 2000px) 1200px, 550px">  
 					</li>
 					<li class="carousel_slide current-slide first" id='carousel_coding1'>
@@ -455,31 +454,57 @@
 				</p>
 			</div>
 			<div class= 'content' id='rov-content'>
-				<h3 class="modaltitle">PERSONAL WEBSITE</h3>
+				<h3 class="modaltitle">ROV SUBMARINE</h3>
 				<hr>
 				<p class="para">
-				The making of my own personal website. Used HTML, Vanilla CSS and Vanilla JavaScript for this project. 
-				<br>
-				<br>
-				This project is far from completion, and there will be many more updates as I continue to work on it.
-				For more updates and information, do check out my <a id='githubrepos'href='https://github.com/Kmyming/kmyming.github.io'>Github Page</a>! 	
-				</p>
-				<img id='honestwork' src='https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg' alt='it aint much, but its honest work' loading='lazy'>
-				<hr>
-				<h4>Updates:</h4>
-				<p class='para'>
-					4/1/2021: v1.0
+					This was first engineering project we embarked on as an Electronics specialisation, and definitely one to remember.
+					There were many firsts, and besides all the technical knowledge, it taught me alot about project management, and showed me 
+					what working in engineering could be like.
 					<br>
 					<br>
-					Version 1 of the website completed! Content for 'about', 'my work' with some basic JavaScript
-					for automatic carousel, modals and navigation bar for mobile.
-				</p>
-				<p class="para">
-					20/1/2021: v1.1
+					For the full technical information about the project, you can refer to the journal <a href="VRMC Submersible Remote Operated Vehicle (ROV) Manual.pdf" target="_blank">here</a>.
 					<br>
 					<br>
-					Minor edits to the website to make it run smoother and load quicker, through compressing and properly sizing images,
-					 and eliminating render-blocking resources. Hopefully the website loads a tad bit faster now!
+					I got to learn alot of technical knowledge during the course of this project, working mainly on wireless control, programming the controller,
+					doing CAD design and 3D printing of motor holders, motor testing and waterproofing. 
+					<br>
+					<br>
+					Since we were going to remotely control it, we had to work with wireless control, and hence used the ESP32 microcontroller and utilised WiFi control. I had to learn how to program using Arduino to
+					set up access points and connect the ESP32s to one another and sending HTTP requests. Things seemed ok at the start, but they became increasingly 
+					complicated as we tried to send multiple datas at once. I also worked on the controllers , working on collecting the input values of the various controls
+					and sending over the data using the WiFi control. We also had to recalibrate the potentiometer values to remove certain errors in its output,
+					and hence utilised abit of PID control, mainly the 'Proportional' aspect.
+					<br><br>
+					<img id='rov1' src='../img/rov1.jpg' alt='' loading='lazy'>
+					<br>
+					<br>
+					The rest of my teammates worked on other aspects of the project, such as motor control, pressure sensing, and electromagnets for object pickup.
+					<br><br>
+					I also got to work on some of the mechanical aspects of the project. For example, we had to make the submarine heavier as it would not sink,
+					and hence utilised weights to do so. However, the placement was important to ensure the center of bouyancy was at the correct position. We also planned
+					to incoporate semi-automation features to the submarine, and hence wanted to use a small balloon to measure the hydrostatic pressure. 
+					<br><br>
+					Another very interesting aspect of the project was the motors. It wasnt as simple as just choosing a random motor and attaching it to the robot.
+					We had to think through carefully what kind of specs we required in our motors, and how the torque, RPM, voltage and current affected our choice, and also
+					had to devise a method to test them, which was quite interesting. I really enjoyed how we were in a way bringing concepts out of the classroom, to work on actual
+					physics experiments beyond just practicals.
+					<br><br>
+					<img id='rov2' src='../img/rov2.jpg' alt='' loading='lazy'>
+					<video src="../img/motortest.mp4" width="420px" height="240px" controls></video>
+					<br><br>
+					I also got to work on doing CAD design for the motor holders and 3D print them, which was my first time ever doing so. I realised how important being
+					precise and detailed is, as one wrong number and we would have to waste another hour or so reprinting the build. It was interesting learning about basic CAD design
+					and 3D printing, such as the various platics such as PLA and how the entire process from design to product was like. 
+					<br><br>
+					<img id='rov3' src='../img/rov3.jpg' alt='' loading='lazy'>
+					<br><br>
+					Waterproofing the motors proved to be another challenge too, as we had to work with parrifin wax and vaseline. We had to seal the motors to ensure that wax does not enter the holes 
+					while ensuring that the shaft could still spin. Working with melted wax was a challenge too, since it creates such a mess, and we had to preplan well accordingly and ensure our steps were precise.
+					<br><br>
+					<video src="../img/waterproofing.mp4" width="420px" height="240px" controls></video>
+					<br><br>
+					Sadly, this project got discontinued before we managed to complete the final assembly of the submarine, as our teacher in charge wanted us to focus on other things. However, this project definitely
+					was a good learning experience for us, allowing us to experience what engineering was like, and it solidified my interest for engineering.
 				</p>
 			</div>
 			<div class= 'content' id='street-content'>

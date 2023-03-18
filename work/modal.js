@@ -14,6 +14,22 @@ let vietnamwords = document.getElementById('vietnamnav');
 let usawords = document.getElementById('usanav');
 let safmc = document.getElementById('safmc-content');
 let ssef = document.getElementById('ssef-content');
+let rov = document.getElementById('rov-content');
+
+document.getElementById('carousel_coding5').addEventListener('click', function(){
+    display.style.display = "flex";
+    street.style.display = 'none';
+    landscape.style.display = 'none';
+    travels.style.display = 'none';
+    architecture.style.display = 'none';
+    events.style.display = 'none';
+    microbit.style.display = 'none';
+    website.style.display = 'none';
+    internship.style.display = 'none';
+    safmc.style.display = 'none';
+    ssef.style.display = 'none';
+    rov.style.display = 'flex';
+})
 
 document.getElementById('carousel_coding4').addEventListener('click', function(){
     display.style.display = "flex";
@@ -27,6 +43,7 @@ document.getElementById('carousel_coding4').addEventListener('click', function()
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'flex';
+    rov.style.display = 'none';
 })
 
 document.getElementById('carousel_coding3').addEventListener('click', function(){
@@ -41,6 +58,7 @@ document.getElementById('carousel_coding3').addEventListener('click', function()
     internship.style.display = 'none';
     safmc.style.display = 'flex';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel1').addEventListener('click', function(){
     display.style.display = "flex";
@@ -54,6 +72,7 @@ document.getElementById('carousel1').addEventListener('click', function(){
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel2').addEventListener('click', function(){
     display.style.display = "flex";
@@ -67,6 +86,7 @@ document.getElementById('carousel2').addEventListener('click', function(){
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel3').addEventListener('click', function(){
     display.style.display = "flex";
@@ -80,6 +100,7 @@ document.getElementById('carousel3').addEventListener('click', function(){
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel4').addEventListener('click', function(){
     display.style.display = "flex";
@@ -93,6 +114,7 @@ document.getElementById('carousel4').addEventListener('click', function(){
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel5').addEventListener('click', function(){
     display.style.display = "flex";
@@ -106,6 +128,7 @@ document.getElementById('carousel5').addEventListener('click', function(){
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel_coding1').addEventListener('click', function(){
     display.style.display = "flex";
@@ -119,6 +142,7 @@ document.getElementById('carousel_coding1').addEventListener('click', function()
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('tinkertankerautolights').addEventListener('click', function(){
     display.style.display = "flex";
@@ -132,6 +156,7 @@ document.getElementById('tinkertankerautolights').addEventListener('click', func
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('tinkertankernoisemonitor').addEventListener('click', function(){
     display.style.display = "flex";
@@ -145,6 +170,7 @@ document.getElementById('tinkertankernoisemonitor').addEventListener('click', fu
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel_coding2').addEventListener('click', function(){
     display.style.display = "flex";
@@ -158,6 +184,7 @@ document.getElementById('carousel_coding2').addEventListener('click', function()
     internship.style.display = 'none';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('carousel_internships').addEventListener('click', function(){
     display.style.display = "flex";
@@ -171,6 +198,7 @@ document.getElementById('carousel_internships').addEventListener('click', functi
     internship.style.display = 'flex';
     safmc.style.display = 'none';
     ssef.style.display = 'none';
+    rov.style.display = 'none';
 })
 document.getElementById('vietnamnav').addEventListener("mouseover",function(){
     vietnam.style.opacity = 0.5;
