@@ -794,7 +794,14 @@ margin-top: -0.5em;
     width: 420px;
     height: 250px;
 }
-
+#safmcpresentation{
+    width: 420px;
+    height: 320px;
+}
+#throwplane, #ssef{
+    width: 420px;
+    height: 250px;
+}
 /*personal website */
 #githubrepos{
     color: black;
