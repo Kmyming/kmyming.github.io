@@ -113,7 +113,6 @@
 			</div>
 			<script src='./carousel.js'></script>
 		</div>
-		</div>
 		<h2 class ='weird'>PHOTOGRAPHY</h2>
 		<div class="carousel2">
 			<button class="carousel_button2 carousel_button--left2 is-hidden2">
@@ -127,7 +126,7 @@
 						../img/1.jpg 1200w'
 						sizes="(max-width: 768px) 400px, (min-width: 2000px) 1200px, 550px">  
 					</li>
-					<li class="carousel_slide2" id='carousel2'>
+					<li class="carousel_slide2 current-slide2 first2" id='carousel2'>
 						<img loading='lazy' src='../img/2.jpg' class='carousel_image2' alt=''
 						srcset='../img/2sss.jpg 400w,
 						../img/2.jpg 1200w'
@@ -166,11 +165,30 @@
 		</div>
 		<script src='./carousel2.js'></script>
 		<h2>WORK</h2>
-		<div class='work' id='carousel_internships'>
-			<img src='../img/TTcover.jpg' alt='' id='workimg'
-			srcset=''
-						sizes="(max-width: 768px) 400px, (min-width: 2000px) 1200px, 550px">
-			<p class='work_title'>TINKERTANKER</p>
+		<div class="work">
+			<button class="carousel_button3 carousel_button--left3 is-hidden3">
+				<img loading='lazy' src='../img/left.svg' alt=''>
+			</button>
+			<div class="carousel_track-container3">
+				<ul class='carousel_track3'>
+					<li class="carousel_slide3 current-slide3 first3" id='work1'>
+						<img src='../img/TTcover.jpg' alt='' id='workimg' class='carousel_image3' srcset='' sizes="(max-width: 768px) 400px, (min-width: 2000px) 1200px, 550px">
+						<p class='work_title'>TINKERTANKER</p>  
+					</li>
+					<li class="carousel_slide3" id='work2'>
+						<img src='../img/realtek.jpg' alt='' id='workimg2'srcset='' class='carousel_image3' sizes="(max-width: 768px) 400px, (min-width: 2000px) 1200px, 550px">
+						<p class='work_title'>REALTEK</p> 
+					</li>
+				</ul>
+			</div>
+			<button class="carousel_button3 carousel_button--right3">
+				<img loading='lazy' src='../img/right.jpg' alt=''>
+			</button>
+			<div class="carousel_nav3">
+				<button class="carousel_indicator3 current-slide3"></button>
+				<button class="carousel_indicator3"></button>
+			</div>
+			<script src='carousel3.js'></script>
 		</div>
 	</section>
 	<div class="bg-modal">
@@ -740,7 +758,7 @@
 				Overall, the internships were definitely a very fufilling learning experience for me, and was something I thoroughly enjoyed. It definitely strengthened my desire to pursue engineering in the future. :)
 				</p>
 			</div>
-			<div class= 'content' id='internships-content'>
+			<div class= 'content' id='internships-content2'>
 				<h3 class='modaltitle'>INTERNSHIPS</h3>
 				<hr>
 				<h4 class='tinkertanker'>RealTek Internship</h4>

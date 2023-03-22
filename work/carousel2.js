@@ -85,9 +85,6 @@ dotsNav2.addEventListener('click', e => {
     hideShowArrows2(targetIndex2, prevButton2, nextButton2, slides2);
 
 });
-function target(tarindex){
-    tarindex = 0;
-}
 // for every 2 seconds the carousel moves to the right
     setInterval(() => {
         const currentSlide2 = track2.querySelector('.current-slide2');
